@@ -1,12 +1,13 @@
+![](https://i.imgur.com/oaig6Au.gif)
+
 # SSOReady Example App: C# ASP.NET Core with SAML
 
-This repo contains a minimal example app built with
-[C#](<https://en.wikipedia.org/wiki/C_Sharp_(programming_language)>) and [ASP.NET
-Core](https://dotnet.microsoft.com/en-us/apps/aspnet) that supports
-[SAML](https://ssoready.com/docs/saml/saml-quickstart) using
-[SSOReady](https://ssoready.com/), an
-[open-source](https://github.com/ssoready/ssoready) way to add SAML and SCIM
-support to your product.
+This repo contains a minimal example app built with C# and ASP.NET Core that
+supports [SAML](https://ssoready.com/docs/saml/saml-quickstart) using
+[the SSOReady C# SDK](https://github.com/ssoready/ssoready-csharp).
+
+[SSOReady](https://github.com/ssoready/ssoready) is an open-source way to add
+SAML and SCIM support to your application.
 
 ## Running it yourself
 
@@ -23,6 +24,8 @@ dotnet run --project ./WebApplication/WebApplication.csproj
 Then, visit http://localhost:5293.
 
 ## How it works
+
+![](https://i.imgur.com/DkcXB4F.png)
 
 There are two steps involved in implementing SAML:
 
